@@ -3,7 +3,6 @@
   "buildCommand": "cd my-app && pnpm run build",
   "outputDirectory": "my-app/.next",
   "installCommand": "cd my-app && pnpm install",
-  "framework": null,
-  "rootDirectory": "my-app"
+  "framework": null
 }
 
