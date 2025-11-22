@@ -4,3 +4,4 @@ export default function ContactLoading() {
   return <Loading fullScreen={false} size="md" text="Chargement" />;
 }
 
+

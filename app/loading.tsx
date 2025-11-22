@@ -4,3 +4,4 @@ export default function RootLoading() {
   return <Loading fullScreen={true} size="lg" text="Chargement" />;
 }
 
+
