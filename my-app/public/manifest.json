@@ -1,0 +1,17 @@
+{
+  "name": "FORTIS Geneva - Solutions IT d'Excellence",
+  "short_name": "FORTIS Geneva",
+  "description": "Services informatiques premium pour entreprises à Genève",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "icons": [
+    {
+      "src": "/logo-fortis.png",
+      "sizes": "any",
+      "type": "image/png"
+    }
+  ]
+}
+

@@ -1,0 +1,235 @@
+{
+  "site": {
+    "title": "BJK IT Services - Solutions Informatiques Genève",
+    "description": "Spécialiste en infrastructures réseau, serveurs et support IT 24/7 à Genève. Solutions sur mesure pour PME et entreprises.",
+    "keywords": "IT Genève, infrastructure réseau, serveurs, support 24/7, sauvegarde, disaster recovery, Suisse"
+  },
+  "company": {
+    "name": "BJK IT Services",
+    "tagline": "Solutions Informatiques d'Excellence",
+    "address": "Route des Jeunes 20, 1201 Genève",
+    "phone": "+41 22 555 0123",
+    "email": "contact@bjkitservices.ch",
+    "tva": "CHE-698.875.674",
+    "coordinates": {
+      "lat": 46.2044,
+      "lng": 6.1432
+    }
+  },
+  "navigation": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "services": "Services",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "hero": {
+    "slides": [
+      {
+        "title": "Infrastructure Réseau",
+        "subtitle": "Solutions sur mesure pour votre entreprise",
+        "description": "Conception et implémentation d'infrastructures réseau sécurisées et performantes adaptées à vos besoins spécifiques.",
+        "cta": "Découvrir nos services",
+        "image": "network-infrastructure.jpg"
+      },
+      {
+        "title": "Support IT 24/7",
+        "subtitle": "Assistance technique continue",
+        "description": "Notre équipe d'experts assure un support technique professionnel 24h/24 et 7j/7 pour garantir la continuité de vos services.",
+        "cta": "Nous contacter",
+        "image": "support-24-7.jpg"
+      },
+      {
+        "title": "Data Center & Cloud",
+        "subtitle": "Sauvegarde et reprise après sinistre",
+        "description": "Solutions complètes de sauvegarde, archivage et reprise d'activité pour protéger vos données critiques.",
+        "cta": "Voir nos projets",
+        "image": "data-center.jpg"
+      }
+    ]
+  },
+  "about": {
+    "title": "À Propos de BJK IT Services",
+    "subtitle": "Qui sommes-nous ?",
+    "description": "BJK est une entreprise IT basée à Genève, spécialisée dans les solutions informatiques sur mesure pour les PME, les institutions publiques et les entreprises privées. Nous nous engageons à fournir des services IT de haute qualité, sécurisés et durables.",
+    "expertise": {
+      "title": "Nos domaines d'expertise :",
+      "items": [
+        "Infrastructures réseau sur mesure",
+        "Intégration de serveurs & data centers",
+        "Sauvegarde & reprise après sinistre",
+        "Support IT 24/7 (niveaux 1, 2, 3)",
+        "Gestion des actifs & continuité de service"
+      ]
+    },
+    "methodology": {
+      "title": "Notre méthodologie :",
+      "items": [
+        "Conforme aux normes ITIL",
+        "Services sécurisés et durables",
+        "Interventions rapides en Suisse"
+      ]
+    },
+    "partners": {
+      "title": "Nos partenaires technologiques :",
+      "description": "Dell • HP • Synology • Ubiquiti (Achats via Digitec.ch – tarifs locaux)"
+    }
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Solutions informatiques complètes",
+    "list": [
+      {
+        "id": "server-setup",
+        "title": "Configuration de Serveurs",
+        "icon": "🖥️",
+        "description": "Installation, configuration et optimisation de serveurs physiques et virtuels pour vos besoins métier.",
+        "details": [
+          "Serveurs Windows Server 2019/2022",
+          "Solutions Linux (Ubuntu Server, CentOS)",
+          "Virtualisation (VMware, Hyper-V)",
+          "Configuration haute disponibilité",
+          "Migration de serveurs existants"
+        ]
+      },
+      {
+        "id": "network-setup",
+        "title": "Infrastructure Réseau",
+        "icon": "🔧",
+        "description": "Conception et déploiement d'infrastructures réseau sécurisées et performantes.",
+        "details": [
+          "Architecture réseau LAN/WAN",
+          "Configuration switches et routeurs",
+          "Sécurité réseau et pare-feu",
+          "Réseaux sans fil professionnels",
+          "Monitoring et supervision"
+        ]
+      },
+      {
+        "id": "service-config",
+        "title": "Services & Applications",
+        "icon": "⚙️",
+        "description": "Configuration et maintenance de services critiques pour votre activité.",
+        "details": [
+          "Services de messagerie (Exchange)",
+          "Bases de données (SQL Server, MySQL)",
+          "Services web et applications métier",
+          "Systèmes de sauvegarde automatisée",
+          "Solutions de télétravail"
+        ]
+      },
+      {
+        "id": "support-247",
+        "title": "Support 24/7",
+        "icon": "🛠️",
+        "description": "Assistance technique continue avec intervention rapide en cas d'incident.",
+        "details": [
+          "Hotline technique 24h/24",
+          "Intervention sur site en urgence",
+          "Maintenance préventive planifiée",
+          "Monitoring proactif des systèmes",
+          "Gestion des incidents ITIL"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Nos Réalisations",
+    "subtitle": "Projets de référence",
+    "list": [
+      {
+        "id": "epfl-network",
+        "title": "EPFL – Réseau sécurisé pour laboratoires",
+        "year": "2021",
+        "client": "École Polytechnique Fédérale de Lausanne",
+        "category": "Infrastructure Réseau",
+        "description": "Déploiement d'une infrastructure réseau haute sécurité pour les laboratoires de recherche.",
+        "image": "epfl-project.jpg",
+        "details": {
+          "challenge": "L'EPFL avait besoin d'une infrastructure réseau ultra-sécurisée pour ses laboratoires de recherche, avec des exigences strictes en matière de segmentation et de protection des données sensibles.",
+          "solution": "Nous avons conçu et déployé une architecture réseau segmentée avec des VLANs dédiés, des pare-feu de nouvelle génération et un système de monitoring en temps réel.",
+          "technologies": ["Cisco Catalyst 9000", "Fortinet FortiGate", "Nagios Core", "VLAN 802.1Q"],
+          "results": [
+            "Sécurité renforcée avec segmentation réseau",
+            "Performance optimisée pour les applications de recherche",
+            "Monitoring proactif 24/7",
+            "Conformité aux standards académiques"
+          ]
+        }
+      },
+      {
+        "id": "swisstrans-datacenter",
+        "title": "SwissTrans – Rénovation du data center",
+        "year": "2022",
+        "client": "SwissTrans SA",
+        "category": "Data Center",
+        "description": "Modernisation complète du data center avec migration en haute disponibilité.",
+        "image": "swisstrans-project.jpg",
+        "details": {
+          "challenge": "SwissTrans devait moderniser son data center vieillissant tout en maintenant la continuité de service pour ses opérations de transport critiques.",
+          "solution": "Migration progressive vers une infrastructure hyperconvergée avec redondance complète et système de sauvegarde automatisé.",
+          "technologies": ["Dell PowerEdge R750", "VMware vSphere 7", "Veeam Backup", "Dell Unity XT"],
+          "results": [
+            "Disponibilité service 99.99%",
+            "Réduction des coûts d'exploitation de 30%",
+            "Temps de récupération (RTO) réduit à 15 minutes",
+            "Évolutivité pour les 5 prochaines années"
+          ]
+        }
+      },
+      {
+        "id": "genevatech-cloud",
+        "title": "GenèveTech – Migration cloud",
+        "year": "2023",
+        "client": "GenèveTech Innovation Hub",
+        "category": "Cloud Migration",
+        "description": "Migration complète vers le cloud avec stratégie hybride et formation des équipes.",
+        "image": "genevatech-project.jpg",
+        "details": {
+          "challenge": "GenèveTech souhaitait migrer ses applications legacy vers le cloud tout en maintenant certains services sensibles on-premise.",
+          "solution": "Stratégie de cloud hybride avec migration progressive, formation des équipes et mise en place de nouvelles procédures DevOps.",
+          "technologies": ["Microsoft Azure", "Azure AD", "Office 365", "Azure Backup"],
+          "results": [
+            "Migration de 50+ applications",
+            "Réduction des coûts infrastructure de 40%",
+            "Amélioration de la collaboration équipes",
+            "Formation de 25 collaborateurs"
+          ]
+        }
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Discutons de votre projet",
+    "info": {
+      "title": "Informations de contact",
+      "description": "Notre équipe d'experts est à votre disposition pour étudier vos besoins et vous proposer des solutions adaptées."
+    },
+    "form": {
+      "name": "Nom complet",
+      "email": "Adresse e-mail",
+      "company": "Entreprise",
+      "phone": "Téléphone",
+      "subject": "Sujet",
+      "message": "Votre message",
+      "submit": "Envoyer le message"
+    },
+    "legal": {
+      "title": "Informations légales",
+      "prestataire": "Prestataire de services : BJK IT",
+      "address": "Adresse : Route des Jeunes 20, 1201 Genève",
+      "tva": "N° TVA / Fiscal : CHE-698.875.674"
+    }
+  },
+  "footer": {
+    "description": "Solutions informatiques d'excellence pour les entreprises genevoises",
+    "services_title": "Services",
+    "company_title": "Entreprise",
+    "contact_title": "Contact",
+    "legal_title": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions générales",
+    "copyright": "© 2025 BJK IT Services. Tous droits réservés."
+  }
+} 

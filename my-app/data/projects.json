@@ -1,0 +1,102 @@
+{
+  "projects": {
+    "title": "Nos Réalisations",
+    "subtitle": "Projets de référence",
+    "list": [
+      {
+        "id": "epfl-network",
+        "title": "EPFL – Réseau sécurisé pour laboratoires",
+        "year": "2021",
+        "client": "École Polytechnique Fédérale de Lausanne",
+        "category": "Infrastructure Réseau",
+        "description": "Déploiement d'une infrastructure réseau haute sécurité pour les laboratoires de recherche.",
+        "image": "epfl-project.jpg",
+        "details": {
+          "challenge": "L'EPFL avait besoin d'une infrastructure réseau ultra-sécurisée pour ses laboratoires de recherche, avec des exigences strictes en matière de segmentation et de protection des données sensibles.",
+          "solution": "Nous avons conçu et déployé une architecture réseau segmentée avec des VLANs dédiés, des pare-feu de nouvelle génération et un système de monitoring en temps réel.",
+          "technologies": ["Cisco Catalyst 9000", "Fortinet FortiGate", "Nagios Core", "VLAN 802.1Q"],
+          "results": [
+            "Sécurité renforcée avec segmentation réseau",
+            "Performance optimisée pour les applications de recherche",
+            "Monitoring proactif 24/7",
+            "Conformité aux standards académiques"
+          ],
+          "stats": [
+            { "value": "24", "label": "Laboratoires connectés" },
+            { "value": "150+", "label": "Équipements réseau" },
+            { "value": "8", "label": "Semaines de déploiement" },
+            { "value": "99.99%", "label": "Disponibilité obtenue" }
+          ],
+          "testimonial": {
+            "quote": "BJK IT Services a parfaitement géré la sécurisation de nos laboratoires. Leur expertise technique et leur réactivité sont remarquables. Le projet a été livré dans les délais avec une qualité exceptionnelle.",
+            "author": "Dr. Marc Dubois",
+            "role": "Directeur IT, EPFL"
+          }
+        }
+      },
+      {
+        "id": "swisstrans-datacenter",
+        "title": "SwissTrans – Rénovation du data center",
+        "year": "2022",
+        "client": "SwissTrans SA",
+        "category": "Data Center",
+        "description": "Modernisation complète du data center avec migration en haute disponibilité.",
+        "image": "swisstrans-project.jpg",
+        "details": {
+          "challenge": "SwissTrans devait moderniser son data center vieillissant tout en maintenant la continuité de service pour ses opérations de transport critiques.",
+          "solution": "Migration progressive vers une infrastructure hyperconvergée avec redondance complète et système de sauvegarde automatisé.",
+          "technologies": ["Dell PowerEdge R750", "VMware vSphere 7", "Veeam Backup", "Dell Unity XT"],
+          "results": [
+            "Disponibilité service 99.99%",
+            "Réduction des coûts d'exploitation de 30%",
+            "Temps de récupération (RTO) réduit à 15 minutes",
+            "Évolutivité pour les 5 prochaines années"
+          ],
+          "stats": [
+            { "value": "150+", "label": "VMs migrées" },
+            { "value": "25 TB", "label": "Données transférées" },
+            { "value": "12", "label": "Semaines de migration" },
+            { "value": "0", "label": "Interruption service" }
+          ],
+          "testimonial": {
+            "quote": "La migration de notre data center s'est déroulée sans interruption de service. Une prouesse technique impressionnante.",
+            "author": "Sophie Martin",
+            "role": "CTO, SwissTrans SA"
+          }
+        }
+      },
+      {
+        "id": "genevatech-cloud",
+        "title": "GenèveTech – Migration cloud",
+        "year": "2023",
+        "client": "GenèveTech Innovation Hub",
+        "category": "Cloud Migration",
+        "description": "Migration complète vers le cloud avec stratégie hybride et formation des équipes.",
+        "image": "genevatech-project.jpg",
+        "details": {
+          "challenge": "GenèveTech souhaitait migrer ses applications legacy vers le cloud tout en maintenant certains services sensibles on-premise.",
+          "solution": "Stratégie de cloud hybride avec migration progressive, formation des équipes et mise en place de nouvelles procédures DevOps.",
+          "technologies": ["Microsoft Azure", "Azure AD", "Office 365", "Azure Backup"],
+          "results": [
+            "Migration de 50+ applications",
+            "Réduction des coûts infrastructure de 40%",
+            "Amélioration de la collaboration équipes",
+            "Formation de 25 collaborateurs"
+          ],
+          "stats": [
+            { "value": "200+", "label": "Applications migrées" },
+            { "value": "45 TB", "label": "Données cloud" },
+            { "value": "16", "label": "Semaines migration" },
+            { "value": "40%", "label": "Réduction coûts" }
+          ],
+          "testimonial": {
+            "quote": "L'accompagnement dans notre transformation cloud a été exemplaire. Équipe professionnelle et résultats au rendez-vous.",
+            "author": "Pierre Rousseau",
+            "role": "IT Manager, GenèveTech"
+          }
+        }
+      }
+    ]
+  }
+}
+
