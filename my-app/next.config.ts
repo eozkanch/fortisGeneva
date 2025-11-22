@@ -61,6 +61,9 @@ const nextConfig: NextConfig = {
   // React Strict Mode
   reactStrictMode: true,
   
+  // Trailing Slash - Vercel compatibility
+  trailingSlash: false,
+  
   // Experimental features for better Vercel compatibility
   experimental: {
     optimizePackageImports: ['lucide-react'],
