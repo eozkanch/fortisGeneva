@@ -1,13 +1,15 @@
 'use client';
 
 import Link from 'next/link';
-import { Home, ArrowLeft, Search, AlertCircle } from 'lucide-react';
+import { Home, ArrowLeft, AlertCircle } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 export default function NotFound() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
+    setIsClient(true);
     const handleMouseMove = (e: MouseEvent) => {
       setMousePosition({ x: e.clientX, y: e.clientY });
     };
@@ -45,19 +47,21 @@ export default function NotFound() {
         ></div>
       </div>
 
-      {/* Cursor Glow Effect */}
-      <div 
-        className="absolute pointer-events-none z-0 transition-all duration-300 ease-out"
-        style={{
-          left: `${mousePosition.x}px`,
-          top: `${mousePosition.y}px`,
-          transform: 'translate(-50%, -50%)',
-          width: '600px',
-          height: '600px',
-          background: 'radial-gradient(circle, rgba(0, 255, 157, 0.1) 0%, transparent 70%)',
-          opacity: 0.5
-        }}
-      ></div>
+      {/* Cursor Glow Effect - Only on client */}
+      {isClient && (
+        <div 
+          className="absolute pointer-events-none z-0 transition-all duration-300 ease-out"
+          style={{
+            left: `${mousePosition.x}px`,
+            top: `${mousePosition.y}px`,
+            transform: 'translate(-50%, -50%)',
+            width: '600px',
+            height: '600px',
+            background: 'radial-gradient(circle, rgba(0, 255, 157, 0.1) 0%, transparent 70%)',
+            opacity: 0.5
+          }}
+        ></div>
+      )}
 
       {/* Main Content */}
       <div className="container mx-auto px-6 relative z-10 text-center">

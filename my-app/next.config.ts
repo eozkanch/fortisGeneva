@@ -60,6 +60,11 @@ const nextConfig: NextConfig = {
   
   // React Strict Mode
   reactStrictMode: true,
+  
+  // Experimental features for better Vercel compatibility
+  experimental: {
+    optimizePackageImports: ['lucide-react'],
+  },
 };
 
 export default nextConfig;
